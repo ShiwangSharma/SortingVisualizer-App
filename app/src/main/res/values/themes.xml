@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SortingAlgoVisualizer" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#A44501</item>
+        <item name="colorPrimaryDark">#3F1903</item>
+
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="bottomSheetStyle">@style/BottomSheetDialog</item>
+    </style>
+
+    <style name="Theme.SortingAlgoVisualizer" parent="Base.Theme.SortingAlgoVisualizer" />
+</resources>

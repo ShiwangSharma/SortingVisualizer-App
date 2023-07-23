@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SortingAlgoVisualizer</string>
+
+    <string name="bubble_sort">BubbleSort</string>
+    <string name="insertion_sort">InsertionSort</string>
+    <string name="selection_sort">SelectionSort</string>
+    <string name="select_an_algorithm">Select an Algorithm</string>
+</resources>
