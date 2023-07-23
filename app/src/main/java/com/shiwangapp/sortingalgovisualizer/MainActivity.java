@@ -361,17 +361,17 @@ public class MainActivity extends AppCompatActivity {
             int key = arr.get(i);
             int j = i - 1;
 
-            //isSorted.set(i, true);
+            isSorted.set(i, true);
             isSorted.set(j, true);
 
             delay();
-            //int finalI = i;
+            int finalI = i;
             int finalJ = j;
             runOnUiThread(new Runnable() {
                 @Override
                 public void run() {
                     updateChart(arr);
-                    //isSorted.set(finalI, false);
+                    isSorted.set(finalI, false);
                     isSorted.set(finalJ, false);
                 }
             });
